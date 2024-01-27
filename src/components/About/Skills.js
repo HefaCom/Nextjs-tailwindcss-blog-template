@@ -11,7 +11,11 @@ const SkillList = [
   "wireframing",
   "SEO",
   "framer motion",
-  "sanity",
+  "sanity","R",
+  "Python",
+  "Data analytics",
+  "Java",
+  "SQL",
 ];
 
 const Skills = () => {
