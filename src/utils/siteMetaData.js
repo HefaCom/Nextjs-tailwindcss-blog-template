@@ -1,6 +1,6 @@
 // please update required information
 const siteMetadata = {
-    title: 'Next.js Blog With Tailwind CSS and Contentlayer',
+    title: 'Learn it with LearnMentorHub!',
     author: 'Hezron Okoko',
     headerTitle: 'Learn it with LearnMentorHub!',
     description: 'LearnMentorHub is a dynamic educational platform committed to fostering learning and mentorship. .',
