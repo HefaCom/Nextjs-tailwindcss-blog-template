@@ -9,7 +9,7 @@ const siteMetadata = {
     siteUrl: 'https://create-blog-with-nextjs.vercel.app', // your website URL
     siteLogo: '/logo.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
-    email: 'codebucks27@gmail.com', 
+    email: 'okokohhezron254@gmail.com', 
     github: 'https://github.com/HefaCom',
     twitter: 'https://twitter.com/_hezron__',
     facebook: 'https://facebook.com',
