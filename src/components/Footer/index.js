@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import { DribbbleIcon, GithubIcon, LinkedinIcon, TwitterIcon } from "../Icons";
 import Link from "next/link";
 import siteMetadata from "@/src/utils/siteMetaData";
-
+const y = new Date().getFullYear();
 const Footer = () => {
   const {
     register,
@@ -77,7 +77,7 @@ const Footer = () => {
 
       <div className="w-full  mt-16 md:mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">
-          &copy;2023 CodeBucks. All rights reserved.
+          &copy;2015-{y} TheNerd. All rights reserved.
         </span>
         <Link
           href="/sitemap.xml"
