@@ -10,11 +10,11 @@ const siteMetadata = {
     siteLogo: '/logo.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'codebucks27@gmail.com', 
-    github: 'https://github.com/codebucks27',
-    twitter: 'https://twitter.com/code_bucks',
+    github: 'https://github.com/HefaCom',
+    twitter: 'https://twitter.com/_hezron__',
     facebook: 'https://facebook.com',
     youtube: 'https://youtube.com/codebucks',
-    linkedin: 'https://www.linkedin.com/in/codebucks/',
+    linkedin: 'https://www.linkedin.com/in/hezron-okoko/',
     dribbble: 'https://www.dribbble.com',
     locale: 'en-US',
   }
