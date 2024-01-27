@@ -2,7 +2,7 @@
 const siteMetadata = {
     title: 'Next.js Blog With Tailwind CSS and Contentlayer',
     author: 'Hezron Okoko',
-    headerTitle: 'Learn it LearnMentorHub',
+    headerTitle: 'Learn it with LearnMentorHub!',
     description: 'LearnMentorHub is a dynamic educational platform committed to fostering learning and mentorship. .',
     language: 'en-us',
     theme: 'system', // system, dark or light
