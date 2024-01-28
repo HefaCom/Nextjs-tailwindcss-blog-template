@@ -20,7 +20,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
 
 ## Core Concepts in R Functions and Packages
 
-### 1. **Functions in R**
+### 1. Functions in R
 
    - Functions in R are blocks of code designed to perform a specific task or set of tasks.
    - Understanding function syntax, parameters, and return values is crucial for effective programming.
@@ -38,7 +38,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
    print(result)  # Output: 25
    ```
 
-### 2. **Packages in R**
+### 2. Packages in R
 
    - Packages in R are collections of functions, data, and documentation bundled together for specific purposes.
    - Installing and loading packages expands R's capabilities by introducing new functionalities.
@@ -51,7 +51,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
    library(dplyr)
    ```
 
-### 3. **CRAN (Comprehensive R Archive Network)**
+### 3. CRAN (Comprehensive R Archive Network
 
    - CRAN is a repository of R packages, providing a centralized hub for package distribution.
    - R users can access and install packages from CRAN using the `install.packages()` function.
@@ -64,7 +64,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
 
 ## Indispensable R Functions
 
-### 1. **Data Manipulation Functions**
+### 1. Data Manipulation Functions
 
    - **`subset()`:** Subsetting data based on conditions.
    - **`merge()`:** Combining datasets through merging.
@@ -82,7 +82,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
    transformed_data <- transform(iris, Sepal.Area = Sepal.Length * Sepal.Width)
    ```
 
-### 2. **Data Exploration Functions**
+### 2. Data Exploration Functions
 
    - **`summary()`:** Providing summary statistics for variables.
    - **`str()`:** Displaying the structure of an object.
@@ -100,7 +100,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
    head(iris)
    ```
 
-### 3. **Data Visualization Functions**
+### 3. Data Visualization Functions
 
    - **`plot()`:** Creating basic plots.
    - **`ggplot2`:** A powerful package for advanced and customized visualizations.
@@ -117,7 +117,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
      labs(title = "Scatter Plot of Sepal Length and Width")
    ```
 
-### 4. **Statistical Analysis Functions**
+### 4. Statistical Analysis Functions
 
    - **`t.test()`:** Conducting t-tests for comparing means.
    - **`lm()`:** Fitting linear regression models.
@@ -137,7 +137,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
 
 ## Must-Know R Packages
 
-### 1. **dplyr**
+### 1. dplyr
 
    - A versatile package for data manipulation and transformation.
    - Key functions include `filter()`, `mutate()`, `group_by()`, and more.
@@ -151,7 +151,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
    grouped_data <- group_by(iris, Species)
    ```
 
-### 2. **ggplot2**
+### 2. ggplot2
 
    - A renowned package for creating complex and customized data visualizations.
    - Follows a layered grammar of graphics for building plots.
@@ -165,7 +165,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
      labs(title = "Bar Plot of Iris Species")
    ```
 
-### 3. **tidyr**
+### 3. tidyr
 
    - Complements dplyr by providing functions for tidying and reshaping data.
    - Includes `gather()`, `spread()`, and `unite()` for handling data in long or wide formats.
@@ -178,7 +178,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
    united_data <- unite(iris, new_col = "Combined", Sepal.Length, Sepal.Width)
    ```
 
-### 4. **stringr**
+### 4. stringr
 
    - Focused on string manipulation tasks.
    - Offers functions like `str_detect()`, `str_replace()`, and `str_extract()` for efficient string handling.
@@ -193,7 +193,7 @@ Winston Chang's guide on essential R functions and packages serves as a comprehe
 _extract("R programming", "program")
    ```
 
-### 5. **lubridate**
+### 5. lubridate
 
    - Specialized in working with date and time data.
    - Simplifies tasks related to parsing, manipulating, and formatting dates.
@@ -208,22 +208,22 @@ _extract("R programming", "program")
 
 ## Key Takeaways from Winston Chang's Guide
 
-### 1. **Efficient Data Manipulation**
+### 1. Efficient Data Manipulation
 
    - Understanding and mastering functions like `subset()`, `merge()`, and `transform()` facilitates efficient data manipulation.
    - The dplyr package adds a layer of simplicity and speed to common data wrangling tasks.
 
-### 2. **Effective Data Exploration**
+### 2. Effective Data Exploration
 
    - Utilizing functions like `summary()`, `str()`, and `head()` provides insights into data structure and content.
    - Visual exploration is enhanced through ggplot2, offering a wide range of customization options.
 
-### 3. **Statistical Proficiency**
+### 3. Statistical Proficiency
 
    - Conducting statistical analyses using functions like `t.test()`, `lm()`, and `anova()` is essential for deriving meaningful insights.
    - Familiarity with these functions empowers users to make informed decisions based on data.
 
-### 4. **Package Management**
+### 4. Package Management
 
    - Managing packages with `install.packages()` and `library()` is foundational for extending R's functionality.
    - The choice of packages, such as dplyr, ggplot2, tidyr, stringr, and lubridate, greatly influences the efficiency and versatility of R programming.
@@ -240,53 +240,53 @@ Congratulations on reaching this point in your exploration of R functions and pa
 
 ## Tips for Ongoing Learning
 
-### 1. **Online Courses and Tutorials**
+### 1. Online Courses and Tutorials
 
    - Explore online platforms offering R programming courses and tutorials. Websites like Coursera, Udemy, and DataCamp provide structured lessons covering various aspects of R.
 
-### 2. **Practice with Real-world Projects**
+### 2. Practice with Real-world Projects
 
    - Apply your R skills to real-world projects. Consider participating in data science competitions or working on personal projects to gain hands-on experience.
 
-### 3. **Join R Communities**
+### 3. Join R Communities
 
    - Engage with R communities to seek advice, share insights, and collaborate with fellow enthusiasts. Platforms like Stack Overflow, RStudio Community, and LinkedIn groups are excellent spaces for networking.
 
-### 4. **Read Advanced R Books**
+### 4. Read Advanced R Books
 
    - Delve into advanced R programming books to deepen your understanding. Books like "Advanced R" by Hadley Wickham and "R for Data Science" by Hadley Wickham and Garrett Grolemund are highly recommended.
 
 ## Exploring Advanced Topics
 
-### 1. **Machine Learning with R**
+### 1. Machine Learning with R
 
    - Explore machine learning in R using packages like caret, randomForest, and xgboost. These packages offer a wide range of algorithms for predictive modeling.
 
-### 2. **Big Data Analytics**
+### 2. Big Data Analytics
 
    - Learn about big data analytics with R using packages like sparklyr and rhipe. These tools allow you to analyze large datasets efficiently.
 
-### 3. **Interactive Dashboards with Shiny**
+### 3. Interactive Dashboards with Shiny
 
    - Dive into Shiny, an R package for building interactive web applications. Create dynamic dashboards and visualizations to share your insights with others.
 
 ## Building a Portfolio
 
-### 1. **Showcasing Your Projects**
+### 1. Showcasing Your Projects
 
    - Continue building your portfolio by adding new projects that highlight your data analysis skills. Share your code on GitHub and document your analyses for potential employers or collaborators.
 
-### 2. **Blogging About R**
+### 2. Blogging About R
 
    - Consider starting a blog to document your R learning journey, share insights, and contribute to the R community. Blogging is a great way to reinforce your understanding and connect with others.
 
 ## Embracing Challenges
 
-### 1. **Problem-solving Attitude**
+### 1. Problem-solving Attitude
 
    - Approach challenges with a problem-solving attitude. Use online forums and documentation to troubleshoot issues, and don't be afraid to experiment with different solutions.
 
-### 2. **Learning from Mistakes**
+### 2. Learning from Mistakes
 
    - Embrace mistakes as learning opportunities. Analyze errors, understand the source of the issue, and use it as a chance to improve your coding skills.
 
