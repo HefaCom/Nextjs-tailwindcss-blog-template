@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import profileImg from "@/public/logo.png"
+import profileImg from "@/public/logol.png"
 
 const Logo = () => {
   return (
