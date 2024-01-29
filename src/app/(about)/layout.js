@@ -5,6 +5,7 @@ const insights = [
     "50+ Projects Completed",
     "6+ Years of Freelancing",
     "99% Client Satisfaction",
+    "Masters Degree Holder",
     "20K+ Subscribers",
     "Authored In-Depth Course on Educative",
     "Contributed as a Technical Course Reviewer 📝",
