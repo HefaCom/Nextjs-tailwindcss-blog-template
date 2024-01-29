@@ -7,7 +7,7 @@ const siteMetadata = {
     language: 'en-us',
     theme: 'system', // system, dark or light
     siteUrl: 'https://learn.nerdexperts.online/', // your website URL
-    siteLogo: '/logo.png',
+    siteLogo: '/logol.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'okokohhezron254@gmail.com', 
     github: 'https://github.com/HefaCom',
